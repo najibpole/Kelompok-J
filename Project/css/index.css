@@ -66,17 +66,19 @@
   .container {
     border-radius: 5px;
     background-color: rgb(250, 250, 250);
-    padding: 20px;
+    padding: 5px;
+    padding-left: 15px;
     width: 65%;
     height: 420px;
     margin-top: 20px;
     position: absolute;
+    margin-left: 10px
   }
 
   .container2 {
     border-radius: 5px;
     background-color: rgb(250, 250, 250);
-    padding: 20px;
+    padding: 5px;
     width: 26%;
     height: 420px;
     float: right;
@@ -88,10 +90,24 @@
   .container3 {
     border-radius: 5px;
     background-color: rgb(250, 250, 250);
-    padding: 20px;
+    padding: 5px;
+    padding-left: 15px;
     width: 66%;
+    height: 280px;
+    margin-top: 510px;
+    position: absolute;
+  }
+
+  .container4 {
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    padding: 5px;
+    width: 26%;
     height: 420px;
-    margin-top: 510px
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
   }
 
   .col-25 {
@@ -117,10 +133,22 @@
     margin-top: 45px;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
+   .baner{
+     margin-top: 100px;
+     margin-left: -50px;
+     margin-right: 0px
+   }
+
+   .judul{
+     margin-top: 20px;
+     margin-left: 50%;
+     font-size: 35px;
+   }
+
+   
