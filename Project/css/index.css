@@ -1,0 +1,126 @@
+    .daftarlogin{
+        float:right;
+        margin: 20px
+    }
+
+    .topnav {
+  background-color: #BFBFBF;
+  overflow: hidden;
+  display: flex;
+  justify-content: center
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+* {
+    box-sizing: content-box
+  }
+  
+  input[type=text], select{
+    width: 95%;
+    height: 25px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin: 20px;
+    width: 60px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    width: 65%;
+    height: 420px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .container2 {
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    width: 26%;
+    height: 420px;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .container3 {
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    width: 66%;
+    height: 420px;
+    margin-top: 510px
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 30px;
+  }
+
+  .col-75 {
+    float: right;
+    width: 75%;
+    margin-top: 30px;
+  }
+
+  .col-15 {
+    float: left;
+    width: 25%;
+    margin-top: 0;
+  }
+  .col-65 {
+    float: right;
+    width: 75%;
+    margin-top: 45px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
