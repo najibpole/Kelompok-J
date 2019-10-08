@@ -145,10 +145,58 @@
      margin-right: 0px
    }
 
-   .judul{
+   .lebih{
+     width: 110%;
+     margin-left: 10%
+   }
+
+   .lebih .judul{
      margin-top: 20px;
-     margin-left: 50%;
+     margin-left: 40%;
      font-size: 35px;
    }
 
-   
+   .lebih .harga{
+     margin-left: 17%;
+     margin-top: 5%;
+     font-size: 25px
+   }
+
+   .lebih .diskon{
+    margin-left: 17%;
+    margin-top: 40%;
+    font-size: 25px;
+  }
+ 
+  .lebih .best{
+    margin-left: 10%;
+    margin-top: 70%;
+    font-size: 25px;
+  }
+
+  .lebih .bayar{
+    margin-left: 10%;
+    margin-top: 27%;
+    font-size: 25px;
+  }
+
+   .icon1{
+     position: absolute
+   }
+
+   .note1{
+     float: right;
+     margin-top: 3%;
+    padding-left: 40%
+   }
+
+   .icon2{
+     float: right;
+     padding-left: 50px;
+   }
+
+   .note2{
+     position: absolute
+   }
+
+  
