@@ -18,9 +18,10 @@
 
     <input type="text" placeholder="Masukkan Email" name="email" required>
 
-    <input type="password" placeholder="Masukkan Password" name="psw" required>
+    <input name="password" id="password" type="password" placeholder="Masukkan Password" onkeyup='check();' required/>
 
-    <input type="password" placeholder="Ulangi Password" name="psw-repeat" required>
+    <input type="password" name="confirm_password" placeholder="Ulangi Password" id="confirm_password"  onkeyup='check();' required/><br>
+    <span id='message'></span>
 
     <p><input type="checkbox" name="nama_checkbox"/>Saya setuju dengan syarat dan ketentuan</a>.</p>
     <button type="submit" class="registerbtn"><b>DAFTAR</b></button>
@@ -31,4 +32,18 @@
     <a href="index.html"><b>Kembali ke Beranda</b></a>
   </div>
 </form>
+
+<script>
+var check = function() {
+    if (document.getElementById('password').value ==
+      document.getElementById('confirm_password').value) {
+      document.getElementById('message').style.color = 'green';
+      document.getElementById('message').innerHTML = 'Password cocok';
+    } else {
+      document.getElementById('message').style.color = 'red';
+      document.getElementById('message').innerHTML = 'Password tidak cocok';
+    }
+  }
+  </script>
+
 </body>
