@@ -6,7 +6,7 @@
 <body>
     <h1 class="register-title"><img src="pic/logs.png" /></h1>
 
-<form action="#" method="post">
+<form action="login.html" method="post">
 
   <div class="container">
     <h2>Create Account </h2>
@@ -16,7 +16,7 @@
 
     <input type="text" placeholder="Masukkan Nama" name="nama" required>
 
-    <input type="text" placeholder="Masukkan Email" name="email" required>
+    <input type="email" placeholder="Masukkan Email" name="email" required>
 
     <input name="password" id="password" type="password" placeholder="Masukkan Password" onkeyup='check();' required/>
 
@@ -26,12 +26,13 @@
     <p><input type="checkbox" name="nama_checkbox"/>Saya setuju dengan syarat dan ketentuan</a>.</p>
     <button type="submit" class="registerbtn"><b>DAFTAR</b></button>
   </div>
+</form>
 
   <div class="container signin">
-    <p>Sudah punya akun? <a href="login.html"><b>Masuk</b></a>.</p>
+    <p>Sudah punya akun? <a href="login.html"><b>Masuk</b></a></p>
     <a href="index.html"><b>Kembali ke Beranda</b></a>
   </div>
-</form>
+
 
 <script>
 var check = function() {
