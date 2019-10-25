@@ -353,7 +353,7 @@ background: darken(white, 2%);
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    /* margin-top: 500px; */
+    /* margin-top: 200px; */
     margin-left: -21px;
   }
    
@@ -508,3 +508,30 @@ background: darken(white, 2%);
     }
    
   }
+
+
+  div.container {
+    padding: 10px;
+  }
+  
+.daftar-konten{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 1072px;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+div.polaroid {
+  display: inline-block;
+  margin-right: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.polaroid2  {
+  display: inline-block;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
