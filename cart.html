@@ -9,7 +9,7 @@
      <div class=logo>
          <img src="pic/logsbiru.png">
          <div class="daftarlogin">
-         <a href="login.html"><img src="pic/logout.png"></a>
+         <a href="#" id="btn-logout"><img src="pic/logout.png"></a>
          </div>
      </div>
 
@@ -20,7 +20,20 @@
             <a class="active" href="#pesanan"><b>PESANAN SAYA</b></a>
      </div>
 
-     <div class="table">
+     <div id="myModal" class="modal modal-zoom">
+
+      <div class="modal-content">
+          <p>Log Out?</p>
+          <button id="modal-btn-yes">
+              Yes
+          </button>
+          <button id="modal-btn-no">
+              No
+          </button>
+      </div>
+     </div>
+
+      <div class="table">
                     
             <div class="layout-inline row th">
               <div class="col col-pro">Nama Produk</div>
@@ -146,6 +159,34 @@
                 })
             });
     })
+
+    $("#btn-logout").on('click', function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+    })
+    $("#modal-btn-no").on('click', function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    })
+    $("#modal-btn-yes").on('click', function () {
+        window.location.href = 'index.html';
+        return false;
+        modal.style.display = "none";
+    })
+    $(document).keyup(function (e) {
+        if (e.keyCode === 13) {
+            if (modal.style.display == "block") {
+                window.location.href = 'index.html';
+                return false;
+                modal.style.display = "none";
+            }
+        }     // enter
+        if (e.keyCode === 27) {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+        ;   // esc
+    });
     </script>
     
 
